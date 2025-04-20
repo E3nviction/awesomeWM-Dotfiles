@@ -1,0 +1,15 @@
+local gears = require("gears")
+local awful = require("awful")
+require("awful.autofocus")
+local wibox = require("wibox")
+local beautiful = require("beautiful")
+local naughty = require("naughty")
+local menubar = require("menubar")
+local hotkeys_popup = require("awful.hotkeys_popup")
+require("awful.hotkeys_popup.keys")
+
+--Autostart
+awful.spawn.with_shell("pkill polybar")
+awful.spawn.with_shell("picom --experimental-backends")
+awful.spawn.with_shell("polybar")
+awful.spawn.with_shell("polkit-gnome-authentication-agent-1 &")
