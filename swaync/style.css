@@ -1,0 +1,11 @@
+@define-color backgroundlight #222;
+@define-color backgrounddark #222;
+@define-color workspacesbackground1 #222;
+@define-color workspacesbackground2 #B0C8FF;
+@define-color bordercolor #222;
+@define-color color1 #222;
+@define-color color2 #DDD;
+@define-color color3 #DDD;
+@define-color iconcolor #EEE;
+@import 'themes/nova-dark/notifications.css';
+@import 'themes/nova-dark/central_control.css';

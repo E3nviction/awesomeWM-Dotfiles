@@ -1,0 +1,4 @@
+#B0C8FF = catppuccin blue
+#C0F8AA = forest green
+#F0C8FF = candy pink
+#F0C8FF = candy pink

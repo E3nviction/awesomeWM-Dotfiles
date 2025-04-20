@@ -1,0 +1,2 @@
+function consolemode
+  steam
